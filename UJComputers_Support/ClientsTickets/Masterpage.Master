@@ -1,0 +1,3 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Masterpage.master.cs" Inherits="ClientsTickets.Masterpage" %>
+
+

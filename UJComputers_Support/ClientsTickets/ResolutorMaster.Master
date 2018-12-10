@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ResolutorMaster.master.cs" Inherits="ClientsTickets.ResolutorMaster" %>
+<html>
+    <head  runat="server"> 
+        <title>
+            Resolutor
+        </title>
+        <style type="text/css">
+            .auto-style1 {
+                width: 200%;
+            }
+        </style>
+        </head>
+    <body style="background-image: url(/pictures/FondoMusic.png)">
+        <div align="center">
+            <form method="post" runat="server">
+                <table runat="server" cellpadding="1" cellspacing="1" width="100%">
+                    <tr>
+                        <td bgcolor="Black" width="100%" dir="ltr" nowrap="nowrap" scope="rowgroup" class="auto-style1">
+                            <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Size="X-Large" ForeColor="White" NavigateUrl="~/pages/ClientsTickets.aspx">UJComputers</asp:HyperLink>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/pictures/MyTickes.png" Height="40px" PostBackUrl="~/pages/TicketsByResolutor.aspx" CausesValidation="False" ToolTip="Your assigned tickets" />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/pictures/SolvedTickets.png" Height="42px" PostBackUrl="~/pages/SolvedTickets.aspx" CausesValidation="False" ToolTip="Your solved tickets" />
+                            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp; &nbsp;
+                            <asp:ImageButton ID="ImgExit" runat="server" ImageUrl="~/pictures/logout.png" PostBackUrl="~/pages/ClientsTickets.aspx" OnClick="ImgExit_Click" Height="39px" CausesValidation="False" ToolTip="Sign out" />
+                            <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" dir="ltr" nowrap="nowrap" scope="rowgroup">
+                            <asp:Label ID="Label2" runat="server" Font-Bold="True" ForeColor="#333333" Text="Support Center" Font-Size="X-Large"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" bgcolor="Black">
+                   <p style="text-align:center;  background-color:black;"><font color="white">Compatible con</font></p>
+                  <asp:Image ID="Image3" runat="server" ImageUrl="~/pictures/chrome-icon.png" Height="30px" />
+                  <asp:Image ID="Image4" runat="server" ImageUrl="~/pictures/firefox-icon.png" Height="29px" />
+                            <asp:ScriptManager ID="ScriptManager2" runat="server">
+                            </asp:ScriptManager>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        </body>
+</html>

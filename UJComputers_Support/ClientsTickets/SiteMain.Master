@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMain.master.cs" Inherits="ClientsTickets.SiteMain" %>
+<html>
+    <head  runat="server"> 
+        <title>
+            Sistema de Aplicación de Becas UJMD
+        </title>
+        <style type="text/css">
+            .auto-style1 {
+                width: 900px;
+            }
+        </style>
+        </head>
+    <body style="background-image: url(/pictures/FondoMusic.png)">
+        <div align="center">
+            <form method="post" runat="server">
+                <table runat="server" cellpadding="1" cellspacing="1" width="100%">
+                    <tr>
+                        <td bgcolor="Black" width="500" dir="ltr" nowrap="nowrap" scope="rowgroup" class="auto-style1">
+                            <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Size="XX-Large" ForeColor="White" NavigateUrl="~/pages/ClientsTickets.aspx" ToolTip="Home">UJComputers</asp:HyperLink>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/pictures/CreateTicket.png" PostBackUrl="~/pages/CreateTicket.aspx" Height="46px" Width="44px" CausesValidation="False" ToolTip="Create a new ticket" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/pictures/Search.png" PostBackUrl="~/pages/CheckTicket.aspx" Height="44px" Width="47px" CausesValidation="False" ToolTip="Check your ticket status" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:ImageButton ID="ImageButton3" runat="server" ImageUrl="~/pictures/Information.png" Height="45px" PostBackUrl="~/pages/Info.aspx" CausesValidation="False" ToolTip="Website Information" ValidateRequestMode="Enabled" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:ImageButton ID="ImageButton4" runat="server" ImageUrl="~/pictures/Login.png" PostBackUrl="~/pages/Login.aspx" Height="46px" CausesValidation="False" ToolTip="Sign in" />
+                            &nbsp;&nbsp;
+                            <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#F4F5F6" width="500" dir="ltr" nowrap="nowrap" scope="rowgroup" class="auto-style1">
+                                <asp:Label ID="Label3" runat="server" Font-Bold="True" ForeColor="#333333" Text="Administration Center" Font-Size="Large"></asp:Label>
+                          
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" bgcolor="Black" height="75">
+                            <asp:Label ID="Label7" runat="server" ForeColor="White" Text="Certified Browsers:"></asp:Label>
+                            <br />
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/pictures/firefox-icon.png" Height="27px" />
+                            <asp:Image ID="Image2" runat="server" ImageUrl="~/pictures/chrome-icon.png" Height="27px" />
+                <asp:ScriptManager ID="ScriptManager1" runat="server">
+                </asp:ScriptManager>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        </body>
+</html>

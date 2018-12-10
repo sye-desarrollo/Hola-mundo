@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ADMINIMASTER.master.cs" Inherits="ClientsTickets.ADMINIMASTER" %>
+<html>
+    <head  runat="server"> 
+        <title>
+            UJComputers
+        </title>
+        <style type="text/css">
+            .auto-style2 {
+                height: 51px;
+            }
+        </style>
+        </head>
+    <body style="background-image: url(/pictures/FondoMusic.png)">
+        <div align="center">
+            <form method="post" runat="server">
+                <table runat="server" cellspacing="1" width="100%" bordercolor="black">
+                    <tr>
+                        <td bgcolor="Black" dir="ltr" nowrap="nowrap" scope="rowgroup" class="auto-style2" valign="baseline">
+                            <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Size="XX-Large" ForeColor="White" NavigateUrl="~/pages/ClientsTickets.aspx" ToolTip="Home">UJComputers</asp:HyperLink>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                            &nbsp;
+                            <asp:ImageButton ID="imgAdminTicket" runat="server" ImageUrl="~/pictures/TicketAssig.png" PostBackUrl="~/pages/Administrador.aspx" Height="33px" CommandName="Ticket Administration" DescriptionUrl="Asignar Tickets" CausesValidation="False" ToolTip="Assign Tickets " />
+                            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                            <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/pictures/AddUser.png" PostBackUrl="~/pages/CreateUsers.aspx" Height="35px" CausesValidation="False" ToolTip="Add a new user" />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;  
+                            <asp:ImageButton ID="ImageButton3" runat="server" ImageUrl="~/pictures/UpdateUser.png" PostBackUrl="~/pages/MantUsers.aspx" Height="38px" CausesValidation="False" ToolTip="Update Users" />
+                            &nbsp;&nbsp;&nbsp; &nbsp;
+                            <asp:ImageButton ID="imgExit" runat="server" ImageUrl="~/pictures/logout.png" PostBackUrl="~/pages/ClientsTickets.aspx" OnClick="imgExit_Click" Height="37px" CausesValidation="False" ToolTip="Sing out" />
+                          
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="White" dir="ltr" nowrap="nowrap" scope="rowgroup" valign="baseline">
+                                <asp:Label ID="Label3" runat="server" Font-Bold="True" ForeColor="#333333" Text="Administration Center" Font-Size="Large"></asp:Label>
+                          
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                    <tr height="30%">
+                        <td height="70">
+
+                        </td>
+                    </tr>
+                    
+                </table>
+                                    <footer class="container-fluid text-center" dir="auto" dropzone="botton">
+              <div style="text-align:center;  background-color:black;">
+                   <p style="text-align:center;  background-color:black;"><font color="white">Compatible con</font></p>
+                  <asp:Image ID="Image3" runat="server" ImageUrl="~/pictures/chrome-icon.png" Height="30px" />
+                  <asp:Image ID="Image4" runat="server" ImageUrl="~/pictures/firefox-icon.png" Height="29px" />
+                            <asp:ScriptManager ID="ScriptManager1" runat="server">
+                            </asp:ScriptManager>
+              </div>
+
+</footer>
+            </form>
+        </div>
+        </body>
+</html>

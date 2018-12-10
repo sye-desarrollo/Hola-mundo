@@ -1,0 +1,82 @@
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\roslyn\csc.exe
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\roslyn\vbc.exe
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\roslyn\VBCSCompiler.exe
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\ClientsTickets.dll.config
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\ClientsTickets.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\ClientsTickets.pdb
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\obj\Debug\ClientsTickets.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\obj\Debug\ClientsTickets.pdb
+C:\Users\castl\Documents\Visual Studio 2015\Projects\Parcial2\ClientsTickets\bin\AjaxControlToolkit.dll
+C:\Users\castl\documents\visual studio 2015\Projects\Parcial2\ClientsTickets\obj\Debug\ClientsTickets.csprojResolveAssemblyReference.cache
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\roslyn\csc.exe
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\roslyn\vbc.exe
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\roslyn\VBCSCompiler.exe
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\ClientsTickets.dll.config
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\ClientsTickets.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\ClientsTickets.pdb
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\AjaxControlToolkit.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\obj\Debug\ClientsTickets.dll
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\obj\Debug\ClientsTickets.pdb
+C:\Users\castl\Documents\Visual Studio 2015\Projects\UJComputers_Support\ClientsTickets\obj\Debug\ClientsTickets.csprojResolveAssemblyReference.cache
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\roslyn\csc.exe
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\roslyn\vbc.exe
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\ClientsTickets.dll.config
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\ClientsTickets.dll
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\ClientsTickets.pdb
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\obj\Debug\ClientsTickets.csprojResolveAssemblyReference.cache
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\obj\Debug\ClientsTickets.dll
+C:\Users\Ucastillo\Desktop\UJComputers_Support\ClientsTickets\obj\Debug\ClientsTickets.pdb
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\roslyn\csc.exe
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\roslyn\vbc.exe
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\ClientsTickets.dll.config
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\ClientsTickets.dll
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\ClientsTickets.pdb
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\obj\Debug\ClientsTickets.csprojResolveAssemblyReference.cache
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\obj\Debug\ClientsTickets.dll
+C:\Users\Ucastillo\Documents\UJComputers_Support\ClientsTickets\obj\Debug\ClientsTickets.pdb
